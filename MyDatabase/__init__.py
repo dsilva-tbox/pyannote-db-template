@@ -64,7 +64,7 @@ class MyProtocol1(SpeakerDiarizationProtocol):
             # to yield dictionary with the following fields:
             yield {
                 # name of the database class
-                'database': 'MyDatabase',
+                'database': 'Recording_Data',
                 # unique file identifier
                 'uri': uri,
                 # reference as pyannote.core.Annotation instance
